@@ -23,7 +23,7 @@
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="https://birchstone.github.io/z/index.html">North</a>
+          <a class="nav-link active" aria-current="page" href="https://birchstone.github.io/city/#">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="https://wateroffice.ec.gc.ca/search/relay_e.html?results_type=real_time&check[]=02EB017,1,,," target="_blank">MOE Lake Levels</a>
