@@ -82,10 +82,11 @@ document.getElementById("demo").innerHTML = text;
 <!-- Background image -->
 <div class="bg-image"
      style="background-image: url('https://birchstone.github.io/city/bootstrap/img/city75r.jpg');
-            background-color: #cccccc;
-            height: 100dvh;           /* dynamic viewport height */
-            min-height: 100vh;
-            background-size: cover"> /* Resize the background image to cover the entire container */
+            background-color: #cccccc;  /* Used if the image is unavailable */
+            background-repeat: repeat-y;
+            height: 100dvh;             /* dynamic viewport height */
+            min-height: 100vh;          /* fill at least the height of the viewport */
+            background-size: cover">    /* Resize the background image to cover the entire container */
 
             <!-- p>&nbsp;</p -->
 	    <br>
