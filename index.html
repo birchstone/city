@@ -69,7 +69,7 @@ var _plm = _plm || [];
 })(document, 'script', 'plmxbtn');</script>
 
 
-<!-- What Time is it Mr. Wolf -->
+<!-- What Time is it -->
 <script>
 const d = new Date();
 let text = d.toLocaleTimeString(navigator.language, {hour: '2-digit', minute: '2-digit'});
@@ -78,18 +78,21 @@ document.getElementById("demo").innerHTML = text;
 
 
 
-
+<!--  style parameters below,
+      /* used if the image is unavailable */
+      /* dynamic viewport height */
+      /* fill at least the height of the viewport */
+      /* Resize the background image to cover the entire container */
+-->
 <!-- Background image -->
 <div class="bg-image"
      style="background-image: url('https://birchstone.github.io/city/bootstrap/img/city75r.jpg');
-            background-color: #cccccc;  /* used if the image is unavailable */
-            height: 100dvh;             /* dynamic viewport height */
-            min-height: 100dvh;         /* fill at least the height of the viewport */
-            background-size: cover">    /* Resize the background image to cover the entire container */
+            background-color: #cccccc;
+            height: 100dvh;
+            min-height: 100dvh;
+            background-size: cover">
 
 	    <br>
-
-
 
             <div class="container">
               <div class="mx-auto" style="width: 289px; height: 195px;">
