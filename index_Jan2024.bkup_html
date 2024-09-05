@@ -35,7 +35,7 @@
         </li>
       </ul>
       <span class="navbar-text">
-	<span style="color:tomato; font-size:20px; "><span id="demo">&nbsp;</span></span>&nbsp; v2024.09
+	<span style="color:tomato; font-size:20px; "><span id="demo">&nbsp;</span></span>&nbsp; v2024.01
       </span>
     </div>
   </div>
@@ -96,8 +96,7 @@ document.getElementById("demo").innerHTML = text;
               <div class="mx-auto" style="width: 289px; height: 195px;">
 
 		<!-- Begin WeatherLink Weather Canada Fragment  287 191, then 297 201 now, ... Adding some text here for fun -->
-    <iframe title="Environment Canada Weather" width="297" height="225" src="https://weather.gc.ca/wxlink/wxlink.html?coords=43.655%2C-79.383&lang=e" allowtransparency="true" style="border: 0;"></iframe>
-		<!-- <iframe title="Environment Canada Weather" width="297px" height="225px" src="https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-143&amp;lang=e" allowtransparency="true" style="border:none;"></iframe> -->
+		<iframe title="Environment Canada Weather" width="297px" height="225px" src="https://weather.gc.ca/wxlink/wxlink.html?cityCode=on-143&amp;lang=e" allowtransparency="true" style="border:none;"></iframe>
 		<!-- End WeatherLink Fragment -->
 
     <!-- Begin WeatherWidget dot io Fragment -->
